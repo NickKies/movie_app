@@ -7,6 +7,7 @@ import Navigation from "./components/Navigation";
 import "./App.css";
 import UseInput from "./routes/UseInput";
 import UseTabs from "./routes/UseTabs";
+import UseTitle from "./routes/useTitle";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/movie/:id" component={Detail} />
             <Route path="/useInput" component={UseInput} />
             <Route path="/useTabs" component={UseTabs} />
+            <Route path="/useTitle" component={UseTitle} />
         </HashRouter>
     );
 }

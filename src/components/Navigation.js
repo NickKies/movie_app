@@ -9,6 +9,7 @@ function Navigation() {
             <Link to="/about">UseState</Link>
             <Link to="/useInput">UseInput</Link>
             <Link to="/useTabs">UseTabs</Link>
+            <Link to="/useTitle">UseTitle</Link>
         </div>
     );
 }
