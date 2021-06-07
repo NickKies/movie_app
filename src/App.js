@@ -12,6 +12,7 @@ import UseClick from "./routes/UseClick";
 import UseConfirm from "./routes/UseConfirm";
 import UsePreventLeave from "./routes/UsePreventLeave";
 import UseBeforeLeave from "./routes/UseBeforeLeave";
+import UseFadeIn from "./routes/UseFadeIn";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/useConfirm" component={UseConfirm} />
             <Route path="/usePreventLeave" component={UsePreventLeave} />
             <Route path="/useBeforeLeave" component={UseBeforeLeave} />
+            <Route path="/useFadeIn" component={UseFadeIn} />
         </HashRouter>
     );
 }

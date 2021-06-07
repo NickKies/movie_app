@@ -14,6 +14,7 @@ function Navigation() {
             <Link to="/useConfirm">UseConfirm</Link>
             <Link to="/usePreventLeave">UsePreventLeave</Link>
             <Link to="/useBeforeLeave">UseBeforeLeave</Link>
+            <Link to="/useFadeIn">UseFadeIn</Link>
         </div>
     );
 }
