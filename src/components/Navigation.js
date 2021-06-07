@@ -12,6 +12,7 @@ function Navigation() {
             <Link to="/useTitle">UseTitle</Link>
             <Link to="/useClick">UseClick</Link>
             <Link to="/useConfirm">UseConfirm</Link>
+            <Link to="/usePreventLeave">UsePreventLeave</Link>
         </div>
     );
 }
