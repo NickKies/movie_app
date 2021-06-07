@@ -11,6 +11,7 @@ import UseTitle from "./routes/useTitle";
 import UseClick from "./routes/UseClick";
 import UseConfirm from "./routes/UseConfirm";
 import UsePreventLeave from "./routes/UsePreventLeave";
+import UseBeforeLeave from "./routes/UseBeforeLeave";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/useClick" component={UseClick} />
             <Route path="/useConfirm" component={UseConfirm} />
             <Route path="/usePreventLeave" component={UsePreventLeave} />
+            <Route path="/useBeforeLeave" component={UseBeforeLeave} />
         </HashRouter>
     );
 }
