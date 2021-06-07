@@ -8,6 +8,7 @@ function Navigation() {
             <Link to="/">Home</Link>
             <Link to="/about">UseState</Link>
             <Link to="/useInput">UseInput</Link>
+            <Link to="/useTabs">UseTabs</Link>
         </div>
     );
 }
