@@ -21,7 +21,7 @@ const About = () => {
 
 
 
-class AboutUgly extends React.Component {
+/*class AboutUgly extends React.Component {
     state = {
         item: 1
     };
@@ -55,6 +55,6 @@ class AboutUgly extends React.Component {
             </div>
         )
     }
-}
+}*/
 
-export default AboutUgly;
+export default About;

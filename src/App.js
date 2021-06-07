@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Detail from "./routes/Detail";
 import Navigation from "./components/Navigation";
 import "./App.css";
+import UseInput from "./routes/UseInput";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Route path="/" exact={true} component={Home} />
             <Route path="/about" component={About} />
             <Route path="/movie/:id" component={Detail} />
+            <Route path="/useInput" component={UseInput} />
         </HashRouter>
     );
 }
