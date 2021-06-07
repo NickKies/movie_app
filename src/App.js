@@ -8,6 +8,7 @@ import "./App.css";
 import UseInput from "./routes/UseInput";
 import UseTabs from "./routes/UseTabs";
 import UseTitle from "./routes/useTitle";
+import UseClick from "./routes/UseClick";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/useInput" component={UseInput} />
             <Route path="/useTabs" component={UseTabs} />
             <Route path="/useTitle" component={UseTitle} />
+            <Route path="/useClick" component={UseClick} />
         </HashRouter>
     );
 }
