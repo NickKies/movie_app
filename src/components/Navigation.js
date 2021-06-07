@@ -15,6 +15,7 @@ function Navigation() {
             <Link to="/usePreventLeave">UsePreventLeave</Link>
             <Link to="/useBeforeLeave">UseBeforeLeave</Link>
             <Link to="/useFadeIn">UseFadeIn</Link>
+            <Link to="/useNetwork">UseNetwork</Link>
         </div>
     );
 }

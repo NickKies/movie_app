@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const useClick = (onClick) => {
     /*if ( typeof onClick !== 'function') {
@@ -7,10 +7,10 @@ const useClick = (onClick) => {
     const element = useRef();
     useEffect(() => {
        if ( element.current ) {
-           element.current?.addEventListener('click', onClick);
+           element.current.addEventListener('click', onClick);
        }
        return () => {
-           if ( element.current) element.current?.removeEventListener('click', onClick);
+           if ( element.current) element.current.removeEventListener('click', onClick);
        };
     }, []);
     return element;

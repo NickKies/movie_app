@@ -5,14 +5,15 @@ import About from "./routes/About";
 import Detail from "./routes/Detail";
 import Navigation from "./components/Navigation";
 import "./App.css";
-import UseInput from "./routes/UseInput";
-import UseTabs from "./routes/UseTabs";
-import UseTitle from "./routes/useTitle";
-import UseClick from "./routes/UseClick";
-import UseConfirm from "./routes/UseConfirm";
-import UsePreventLeave from "./routes/UsePreventLeave";
-import UseBeforeLeave from "./routes/UseBeforeLeave";
-import UseFadeIn from "./routes/UseFadeIn";
+import UseInput from "./routes/hooks/UseInput";
+import UseTabs from "./routes/hooks/UseTabs";
+import UseTitle from "./routes/hooks/UseTitle";
+import UseClick from "./routes/hooks/UseClick";
+import UseConfirm from "./routes/hooks/UseConfirm";
+import UsePreventLeave from "./routes/hooks/UsePreventLeave";
+import UseBeforeLeave from "./routes/hooks/UseBeforeLeave";
+import UseFadeIn from "./routes/hooks/UseFadeIn";
+import UseNetwork from "./routes/hooks/UseNetwork";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/usePreventLeave" component={UsePreventLeave} />
             <Route path="/useBeforeLeave" component={UseBeforeLeave} />
             <Route path="/useFadeIn" component={UseFadeIn} />
+            <Route path="/useNetwork" component={UseNetwork} />
         </HashRouter>
     );
 }

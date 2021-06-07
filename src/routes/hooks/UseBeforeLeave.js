@@ -3,7 +3,6 @@ import React, {useEffect} from 'react';
 const useBeforeLeave = (onBefore) => {
     const handle = event => {
         const { clientY } = event;
-        console.log(clientY)
         if ( clientY <= 0 ) onBefore();
     };
     useEffect(() => {
