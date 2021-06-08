@@ -16,6 +16,10 @@ function Navigation() {
             <Link to="/useBeforeLeave">UseBeforeLeave</Link>
             <Link to="/useFadeIn">UseFadeIn</Link>
             <Link to="/useNetwork">UseNetwork</Link>
+            <Link to="/useScroll">UseScroll</Link>
+            <Link to="/useFullscreen">UseFullscreen</Link>
+            <Link to="/useNotification">UseNotification</Link>
+            <Link to="/useAxios">UseAxios</Link>
         </div>
     );
 }

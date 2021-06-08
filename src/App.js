@@ -14,6 +14,10 @@ import UsePreventLeave from "./routes/hooks/UsePreventLeave";
 import UseBeforeLeave from "./routes/hooks/UseBeforeLeave";
 import UseFadeIn from "./routes/hooks/UseFadeIn";
 import UseNetwork from "./routes/hooks/UseNetwork";
+import UseScroll from "./routes/hooks/UseScroll";
+import UseFullscreen from "./routes/hooks/UseFullscreen";
+import UseNotification from "./routes/hooks/UseNotification";
+import UseAxios from "./routes/hooks/UseAxios";
 
 function App() {
     return (
@@ -31,6 +35,10 @@ function App() {
             <Route path="/useBeforeLeave" component={UseBeforeLeave} />
             <Route path="/useFadeIn" component={UseFadeIn} />
             <Route path="/useNetwork" component={UseNetwork} />
+            <Route path="/useScroll" component={UseScroll} />
+            <Route path="/useFullscreen" component={UseFullscreen} />
+            <Route path="/useNotification" component={UseNotification} />
+            <Route path="/useAxios" component={UseAxios} />
         </HashRouter>
     );
 }
